@@ -1,0 +1,27 @@
+
+.aboutcontainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.aboutul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.highlight {
+    color: #007bff;
+    font-weight: bold;
+}
+
+
+.commitment {
+    margin-top: 30px;
+}

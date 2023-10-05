@@ -1,0 +1,16 @@
+.premium{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 3rem;
+
+    
+}
+
+.back{
+    background: -webkit-linear-gradient(left, #51e4a7, #5ad4df);
+    background: linear-gradient(to right, #51e4a7, #5ad4df);
+    min-height: 100vh;
+}

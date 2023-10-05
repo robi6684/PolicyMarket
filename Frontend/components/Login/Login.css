@@ -1,0 +1,65 @@
+.button{
+    background-color:#0f97f8;
+    border: 0;
+    border-radius: 56px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: system-ui,-apple-system,system-ui,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    outline: 0;
+    padding: 14px 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    box-shadow: rgba(255, 255, 255, .2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+    background-color: #0078d0 ;
+  }
+
+
+.divStyle{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    height : 100vh;
+    background: -webkit-linear-gradient(left, #51e4a7, #5ad4df);
+    background: linear-gradient(to right, #51e4a7, #5ad4df);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.show-password-btn {
+    position: absolute;
+    right: 540px;
+    /* left:720px; */
+    top: 41%;
+    cursor: pointer;
+  }
+
+  .password-btn {
+    position: absolute;
+    right: 40px;
+    /* left:720px; */
+    top: 35%;
+    cursor: pointer;
+  }
+
+  .password-btn2 {
+    position: absolute;
+    right: 40px;
+    /* left:720px; */
+    top: 75%;
+    cursor: pointer;
+  }
+
+
+

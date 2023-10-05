@@ -1,0 +1,21 @@
+
+.contact-us-container {
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+
+  .contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section {
+    width: 30%;
+  }
+  
+  
+  

@@ -1,0 +1,178 @@
+.navBar{
+  background-color: #e3f2fd ;
+  display: flex;
+  padding:0px 20px;
+  align-items: center;
+}
+
+
+.policyMarket{
+  text-align: left;
+  color:#073a71;
+}
+
+
+.list{
+  margin-left: 9%;
+  list-style: none;
+  display: flex;
+  font-size: large;
+  align-items: center;
+  gap: 30px;
+  margin-top: 1rem;
+}
+
+.list li{
+  padding: 7px 20px;
+  color: rgb(13, 31, 49);
+  /* background-color: rgb(13, 124, 115); */
+  cursor: pointer;
+  font-size: large;
+  font-weight: 500;
+}
+
+.list li:hover{
+  background-color: rgb(2, 82, 75);
+  transition: all 0.3s;
+  transform: scale(1.1);
+  color: wheat;
+}
+
+.dropbtn {
+  background-color: #86f588f0;
+  color: rgb(25, 22, 22);
+  padding: 7px 30px;
+  font-size: large;
+  border: none;
+  border-radius: 45%;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  margin-left: 8%;
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #2abb8d}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(2, 82, 75);
+  transition: all 0.4s;
+  transform: scale(1.1);
+  color:wheat;
+  
+}
+
+.pbtn{
+  background-color: #86f588f0;
+  color: rgb(25, 22, 22);
+  padding: 7px 30px;
+  font-size: large;
+  border: none;
+  cursor: pointer;
+  border-radius: 45%;
+  font-weight: 500;
+}
+
+.pbtn:hover{
+  background-color: rgb(2, 82, 75);
+  transition: all 0.3s;
+  transform: scale(1.1);
+  color:wheat;
+}
+
+.cont{
+  display: flex;
+  padding:10px 20px;
+  gap:50px;
+  justify-content: center;
+}
+
+.cont1{
+  display: flex;
+  padding:10px 20px;
+  gap:20px;
+  justify-content: center;
+}
+
+
+.review{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.acc{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.ribbon-2 {
+  --f: 10px; /* control the folded part*/
+  --r: 20px; /* control the ribbon shape */
+  --t: 0px; /* the top offset */
+  
+  position: absolute;
+  inset: var(--t) calc(-1*var(--f)) auto auto;
+  padding: 10px 10px 20px calc(10px + var(--r));
+  clip-path: 
+    polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+      calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+      var(--r) calc(50% - var(--f)/2));
+  background: #ff0000;
+  box-shadow: 0 calc(-1*var(--f)) 0 inset #0005;
+  color: white;
+  
+
+}
+
+.ribbon-1 {
+  position:absolute;
+  background: #570069;
+  /* box-shadow: 0 0 0 300px #08769b; */
+  clip-path: inset(0 -100%);
+  width: 40%;
+  color: white;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: small;
+}
+
+.left {
+  /* inset: 0 auto auto 0; */
+  transform-origin: 80% 0;
+  transform: translate(-39.3%) rotate(-45deg);
+}
+
+
+

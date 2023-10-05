@@ -1,0 +1,88 @@
+
+  .dahboard-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+ 
+  
+
+
+  .upper-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    gap : 50px;
+    margin-top: 2rem;
+  }
+
+  .lower-row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    gap : 50px
+
+  }
+  
+
+  
+  .dashboard-card {
+    width: 250px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    text-align: center;
+    padding: 20px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  }
+
+  .dashboard-card .emoji {
+    font-size: 60px; 
+  }
+  
+  .profile-card {
+    background-color: #aad1e0;
+  }
+  
+  .customer-card {
+    background-color: #c7e1a0;
+  }
+  
+  .policy-card {
+    background-color: #e8b2b2;
+  }
+  
+  .marketing-card {
+    background-color: #f0df98;
+  }
+  
+  .commission-card {
+    background-color: #e18a8a;
+  }
+  
+  .dashboard-card h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .dashboard-card p {
+    margin: 5px;
+    color: #007bff;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  .dashboard-card p:hover {
+    text-decoration: underline;
+    font-size: larger;
+    transition: all 0.3s;
+    text-shadow: 2px 2px 5px red;
+    color:azure
+  }
+  

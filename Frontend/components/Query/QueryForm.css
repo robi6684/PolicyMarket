@@ -1,0 +1,38 @@
+
+
+
+  .formheading{
+    color:rgb(32, 67, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  
+  .form-group {
+    margin-top:2rem ;
+    margin-bottom: 15px;
+    width: 600px;
+   
+  }
+
+  .queryForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .form-group textarea{
+    height:200px
+  }
+  

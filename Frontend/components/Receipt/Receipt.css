@@ -1,0 +1,35 @@
+/* body{
+    margin-top:20px;
+    background-color:#eee;
+} */
+
+.cardi {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.cardi {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    padding: 20px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 5px solid rgba(82, 59, 59, 0.11);
+    border-radius: 1rem;
+}
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+

@@ -1,0 +1,24 @@
+.buyplan{
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+}
+
+.heading{
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+    margin-top: 2rem;
+}
+
+.totalAmount{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.button{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 14px 60px;
+}

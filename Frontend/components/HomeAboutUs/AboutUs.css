@@ -1,0 +1,28 @@
+     .about-us-container {
+      
+      margin: 0 auto;
+      padding: 20px;
+      text-align: justify;
+     
+    }
+  
+   
+    
+    .objective-text {
+      line-height: 1.5;
+     
+    }
+    
+    .objective-text p {
+      margin-bottom: 15px;
+    }
+    
+    .contact-details {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    
+    .contact-section {
+      width: 30%;
+    }
